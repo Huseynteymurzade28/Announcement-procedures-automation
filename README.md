@@ -56,26 +56,6 @@ git clone https://github.com/your-username/announcement-system.git
 Ensure you have Java JDK 17 or later installed.
 ## 3. Install Maven
 If not already installed, download and configure Maven.
-## Gson
-```
-<dependencies>
-    <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-controls</artifactId>
-        <version>17.0.2</version>
-    </dependency>
-    <dependency>
-        <groupId>com.google.code.gson</groupId>
-        <artifactId>gson</artifactId>
-        <version>2.10.1</version>
-    </dependency>
-    <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-annotations</artifactId>
-        <version>2.15.2</version>
-    </dependency>
-</dependencies>
-```
 ## 4. Build the Project
 ```
 mvn clean install
